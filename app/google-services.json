@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "179324750427",
+    "project_id": "my-market-usadba-myasnika",
+    "storage_bucket": "my-market-usadba-myasnika.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179324750427:android:02ff14049dafacd3f94d7e",
+        "android_client_info": {
+          "package_name": "com.rezeda.marketprogram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnfBW10wzNBIVGNBm0I77qjEIr2uSUvqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

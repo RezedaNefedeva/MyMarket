@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MarketProgram" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/violet</item>
+        <item name="colorButtonNormal">@color/violet</item>
+        <item name="colorControlHighlight">@color/dark_violet</item>
+    </style>
+
+    <style name="Theme.MarketProgram" parent="Base.Theme.MarketProgram" />
+
+
+    <style name="ButtonBordo" parent="Widget.Material3.Button">>
+        <item name="backgroundTint">#FF70426A</item>
+        <item name="colorButtonNormal">#FF70426A</item>
+        <item name="colorControlHighlight">#452A42</item>
+    </style>
+
+    <style name="ButtonPink" parent="Widget.Material3.Button">>
+        <item name="backgroundTint">#FFEA6D79</item>
+        <item name="colorButtonNormal">#FFEA6D79</item>
+        <item name="colorControlHighlight">#95464D</item>
+    </style>
+
+    <style name="ButtonPeach" parent="Widget.Material3.Button">>
+        <item name="backgroundTint">#FFFDA187</item>
+        <item name="colorButtonNormal">#FFFDA187</item>
+        <item name="colorControlHighlight">#A55D49</item>
+    </style>
+</resources>

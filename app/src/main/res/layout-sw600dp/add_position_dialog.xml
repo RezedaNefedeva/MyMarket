@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/add_edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:background="@drawable/item_background_design"
+        android:inputType="text"
+        android:textSize="32sp"
+        android:hint="@string/add_name"
+        android:paddingHorizontal="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/add_edit_price"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:background="@drawable/item_background_design"
+        android:inputType="numberDecimal"
+        android:textSize="32sp"
+        android:hint="@string/add_price"
+        android:paddingHorizontal="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/add_edit_amount"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:background="@drawable/item_background_design"
+        android:inputType="numberDecimal"
+        android:textSize="32sp"
+        android:hint="@string/add_amount"
+        android:paddingHorizontal="10dp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/minus_edit_text"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp">
+
+        <Button
+            android:id="@+id/btn_add_cancel"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textSize="32sp"
+            android:background="@drawable/btn_background_design"
+            android:textColor="@color/white"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            style="@style/ButtonPink"
+            android:background="@drawable/btn_pink"
+            android:textColor="@color/white"
+            android:text="@string/add" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemainsActivity"
+    android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remains"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_violet"
+            android:layout_marginVertical="10dp"/>
+
+        <android.widget.SearchView
+            android:id="@+id/search_ostatok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:padding="4dp"
+            android:queryHint="Выберите товар"
+            android:layout_below="@+id/textView"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ostatok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/search_ostatok"
+            android:layout_above="@+id/btn_add_position"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <Button
+            android:id="@+id/btn_add_position"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/add_product"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_background_design"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

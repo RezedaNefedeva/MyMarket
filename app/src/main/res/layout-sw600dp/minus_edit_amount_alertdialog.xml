@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/minus_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="32sp"
+        android:background="@drawable/item_background_design"
+        android:ems="10"
+        android:hint="@string/amount"
+        android:inputType="numberDecimal"
+        android:paddingHorizontal="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/minus_edit_text"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="20dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textSize="32sp"
+            android:background="@drawable/btn_background_design"
+            android:textColor="@color/white"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/btn_minus"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            style="@style/ButtonPink"
+            android:background="@drawable/btn_pink"
+            android:textColor="@color/white"
+            android:text="@string/minus" />
+    </LinearLayout>
+
+</RelativeLayout>

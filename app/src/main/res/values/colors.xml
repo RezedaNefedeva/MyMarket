@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="violet">#FF7365A2</color>
+    <color name="dark_violet">#FF333C64</color>
+    <color name="bordo">#FF70426A</color>
+    <color name="dark_bordo">#FF452A42</color>
+    <color name="pink">#FFEA6D79</color>
+    <color name="dark_pink">#FF95464D</color>
+    <color name="peach">#FFFDA187</color>
+    <color name="dark_peach">#FFA55D49</color>
+</resources>
